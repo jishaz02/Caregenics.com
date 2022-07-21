@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.navlist{
+    width:50%;
+/*background-color: black !important;*/
+display: flex;
+
+align-items: center;
+
+}
+.navlist li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+.navlist li a:hover{
+    
+    color: grey;
+}
+  .rightNav{
+      /*background-color: blueviolet;*/
+      width:50%;
+      text-align: right;
+      padding: 0 23px;
+  }
+
+  #search{
+      padding:5px;
+      font-size: 17px;
+      border: 2px solid grey;
+      border-radius: 9px;
+  }
+
+  .background{
+      background: rgba(0, 0, 0, 0.7) url('../Caregenics-img/DNA.jpeg');
+      background-size: cover;
+      background-blend-mode: darken;
+ 
+    }
+    .firstSection{
+        height: 100vh;
+    }
+    .box-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 50%;
+        margin: auto;
+        height: 80%;
+    }
+    .firstHalf{
+       
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .secondHalf{
+        width: 30%;
+    }
+    .secondHalf img{
+      
+        width: 70%;
+        border: 4px solid white;
+        border-radius: 200px;
+        display: block;
+        margin: auto;
+
+
+    }
+  .text-big{
+font-size: 40px;
+
+  }
+.text-small{
+font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:90%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.thumbnail img{
+    width:280px;
+    border: 2px solid black;
+    border-radius: 26 px;
+    margin-top: 19px;
+}
